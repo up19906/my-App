@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.ClassyPalette{
+  color: #4D8076; 
+  color:#845EC2;
+  color: #4B4453;
+  color:#B0A8B9;
+  color: #C34A36;
+  color:#FF8066 ;
+ }
+
+ .sco{
+  position: fixed;
+  bottom: 50;
+  right: 30;
+  cursor: pointer;
+  transition: 0.2s ;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
