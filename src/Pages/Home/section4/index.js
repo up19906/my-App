@@ -1,5 +1,5 @@
 import React from "react";
-import "./stylesection4.scss";
+import "./section4.scss";
 
 export default function section4() {
   return (

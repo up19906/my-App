@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import Section2 from "./section2";
 import Section3 from "./section3";
+import Section4 from "./section4";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
           <hr className="new" />
           <br />
           <Section3 />
+          <Section4 />
         </div>
       </div>
     </div>
