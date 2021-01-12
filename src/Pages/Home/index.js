@@ -1,12 +1,14 @@
 import React from "react";
 import "./style.scss";
+import Section2 from "./section2";
+import Section3 from "./section3";
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
 
 export default function Home() {
   return (
     <div>
-      <img src="Picture/spec.gif " alt="spec" className="hero-img"></img>
+      <img src="Picture/solution1.gif " alt="spec" className="hero-img"></img>
+
       <div className="hero-text">
         <h1>
           Graphic design in allweb. <br />
@@ -20,85 +22,14 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="h-text">
-        <h1>Featured design projects</h1>
-        <p>
-          บริษัท ออลล์เว็บ เทคโนโลยี่ จำกัด มีความภาคภูมิใจอย่างยิ่งที่ บริษัท
-          ต่างๆ มอบความไว้วางใจให้เรา
-        </p>
-      </div>
       <div className="body">
         <div>
-          <Container>
-            <Row>
-              <Col>
-                <img
-                  src="Picture/Interactive Design/appphone.gif"
-                  alt="sent"
-                  className="img-radius "
-                ></img>
-              </Col>
-              <Col>
-                <p>
-                  Pizza Company Thailand’s biggest franchise restaurant company,
-                  with over 270 restaurants, asked us to assist with updating
-                  its packaging design and brand guidelines.
-                </p>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <p>
-                  Pizza Company Thailand’s biggest franchise restaurant company,
-                  with over 270 restaurants, asked us to assist with updating
-                  its packaging design and brand guidelines.
-                </p>
-              </Col>
-              <Col>
-                <img
-                  src="Picture/Interactive Design/appphone.gif"
-                  alt="sent"
-                  className="img-radius "
-                ></img>
-              </Col>
-            </Row>
-          </Container>
+          <Section2 />
           <br />
           <br />
           <hr className="new" />
           <br />
-          <div className="h-text">
-            <h1>Our Services</h1>
-            <p>
-              บริษัท ออลล์เว็บ เทคโนโลยี่ จำกัด เรามีงานดีไซน์ที่หลากหลายทันสมัย
-            </p>
-          </div>
-          <br />
-          <Container className="pad">
-            <Row className="center">
-              <Col>
-                <img src="Picture/Group-1410.svg" alt="Logo"></img>
-                <p>
-                  {" "}
-                  แบรนด์ที่ประสบความสำเร็จต้องการความคาดหวังและกระตุ้นให้ผู้บริโภคเลือกแบรนด์ของตน
-                </p>
-              </Col>
-              <Col>
-                <img src="Picture/Group-1410.svg" alt="Logo"></img>
-                <p>
-                  {" "}
-                  แบรนด์ที่ประสบความสำเร็จต้องการความคาดหวังและกระตุ้นให้ผู้บริโภคเลือกแบรนด์ของตน
-                </p>
-              </Col>
-              <Col>
-                <img src="Picture/Group-1410.svg" alt="Logo"></img>
-                <p>
-                  {" "}
-                  แบรนด์ที่ประสบความสำเร็จต้องการความคาดหวังและกระตุ้นให้ผู้บริโภคเลือกแบรนด์ของตน
-                </p>
-              </Col>
-            </Row>
-          </Container>
+          <Section3 />
         </div>
       </div>
     </div>
